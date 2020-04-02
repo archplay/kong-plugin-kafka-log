@@ -138,3 +138,4 @@ The following guidelines assume that both `Kong` and `Kafka` have been installed
 
 ## Maintainers
 [yskopets](https://github.com/yskopets)  
+[tzssangglass](https://github.com/tzssangglass)
