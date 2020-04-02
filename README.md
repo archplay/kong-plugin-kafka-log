@@ -1,4 +1,8 @@
 
+# Release Notes
+
+I updated the original plugin code, to adapt to the 2.0.x version of Kong.
+
 # Kong Kafka Log Plugin
 
 This plugin publishes request and response logs to a [Kafka](https://kafka.apache.org/) topic.
@@ -7,7 +11,7 @@ This plugin publishes request and response logs to a [Kafka](https://kafka.apach
 Experimental
 
 ## Supported Kong Releases
-Kong >= 0.14.x 
+Kong >= 2.0.x 
 
 ## Installation
 Recommended:
