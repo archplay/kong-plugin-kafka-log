@@ -57,7 +57,7 @@ function KafkaLogHandler:new()
   KafkaLogHandler.super.new(self, "kafka-log")
 end
 
-function KafkaLogHandler:log(conf, other)
+function KafkaLogHandler:log(conf)
   KafkaLogHandler.super.log(self)
 
   local message = basic_serializer.serialize(ngx)
