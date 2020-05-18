@@ -1,5 +1,6 @@
 local types = require "kong.plugins.kafka-log.types"
 local utils = require "kong.tools.utils"
+local typedefs = require "kong.db.schema.typedefs"
 
 --- Validates value of `bootstrap_servers` field.
 local function check_bootstrap_servers(values)
