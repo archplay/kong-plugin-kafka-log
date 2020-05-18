@@ -97,7 +97,7 @@ The following guidelines assume that both `Kong` and `Kafka` have been installed
 2. Load the `kong-plugin-kafka-log` in `Kong`:
 
     ```
-    KONG_PLUGINS=bundled,kafka-log bin/kong start
+    KONG_PLUGINS=bundled,kafka-log
     ```
 
 3. Create `kong-log` topic in your `Kafka` cluster:
